@@ -2,3 +2,5 @@ node_modules
 dist
 yarn-error.log
 *.orig
+error.log
+combined.log
