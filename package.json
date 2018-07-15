@@ -7,7 +7,7 @@
     "start": "nodemon",
     "setup:jest": "./scripts/setup-jest/setup-jest.sh",
     "setup:express": "./scripts/setup-express/setup-express.sh",
-    "clean": "git reset --hard && rm ./jest.config.js && rm -rf ./src/server"
+    "clean": "git reset --hard && rm -f ./jest.config.js && rm -rf -f ./src/server"
   },
   "keywords": [],
   "author": "",
