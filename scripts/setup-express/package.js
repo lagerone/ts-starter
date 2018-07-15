@@ -5,7 +5,7 @@ const {
 
 const packageJson = getPackageJson();
 
-packageJson.scripts.test = 'jest';
-packageJson.scripts['test:watch'] = 'jest --watchAll';
+packageJson.scripts['start:server'] =
+  'echo "\\033[0;33mEdit nodemon.json exec path to src/server/server.ts to nodemon server\\033[0m"';
 
 savePackageJsonSync(packageJson);
