@@ -1,0 +1,20 @@
+{
+  "name": "ts-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "./scripts/setup-ts-starter/setup-ts-starter.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagerone/ts-starter.git"
+  },
+  "keywords": [],
+  "author": "Daniel Lager <daniel.lager@gmail.com> (https://github.com/lagerone)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lagerone/ts-starter/issues"
+  },
+  "homepage": "https://github.com/lagerone/ts-starter#readme"
+}
