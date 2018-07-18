@@ -1,7 +1,7 @@
 {
   "name": "ts-starter",
   "version": "0.0.1",
-  "description": "",
+  "description": "A typescript starter",
   "main": "index.js",
   "scripts": {
     "setup": "./scripts/setup-ts-starter/setup-ts-starter.sh"
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/lagerone/ts-starter.git"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "starter",
+    "boilerplate"
+  ],
   "author": "Daniel Lager <daniel.lager@gmail.com> (https://github.com/lagerone)",
   "license": "MIT",
   "bugs": {
