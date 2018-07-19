@@ -13,7 +13,7 @@ cp -r ${CWD}/server/ $SRC_PATH
 
 echo -e "${TASK} installing dependencies..."
 yarn --cwd $PROJECT_PATH add --dev @types/body-parser @types/compression @types/errorhandler @types/express
-yarn --cwd $PROJECT_PATH add jest body-parser compression errorhandler express
+yarn --cwd $PROJECT_PATH add body-parser compression errorhandler express
 
 echo -e "${TASK} adding test script to package.json"
 node ${CWD}/package.js
