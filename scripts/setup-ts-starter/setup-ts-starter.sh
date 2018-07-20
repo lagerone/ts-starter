@@ -12,8 +12,8 @@ echo -e "${TASK} init npm"
 cd ${CWD}/../../ && npm init -y
 
 echo -e "${TASK} installing dependencies..."
-yarn --cwd $PROJECT_PATH add --dev @types/node @types/winston eslint nodemon ts-node tslint tslint-config-prettier typescript
-yarn --cwd $PROJECT_PATH add dotenv winston
+yarn --cwd $PROJECT_PATH add --dev @types/shelljs @types/node @types/winston eslint nodemon ts-node tslint tslint-config-prettier typescript
+yarn --cwd $PROJECT_PATH add shelljs dotenv winston
 
 echo -e "${TASK} adding scripts to package.json"
 node ${CWD}/package.js

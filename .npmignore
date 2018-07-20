@@ -1,0 +1,14 @@
+scripts
+
+.eslintrc*
+.prettierignore
+.prettierrc
+.editorconfig
+.nvmrc
+jest.config.jest
+log.ts
+nodemon.json
+tsconfig.json
+tslint.json
+package-lock.json
+yarn.lock
