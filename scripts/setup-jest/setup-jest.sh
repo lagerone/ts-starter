@@ -11,7 +11,7 @@ echo -e "${TASK} copying ${JEST_CONFIG_PATH}"
 cp $JEST_CONFIG_PATH $PROJECT_PATH
 
 echo -e "${TASK} installing dependencies..."
-npm install --save-dev jest @types/jest ts-jest --prefix $PROJECT_PATH
+npm install --save-dev jest@23 @types/jest ts-jest --prefix $PROJECT_PATH
 
 echo -e "${TASK} adding test script to package.json"
 node ${CWD}/package.js

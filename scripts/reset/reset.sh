@@ -9,7 +9,7 @@ PROJECT_PATH=${CWD}/../../
 echo -e "${TASK} remove files"
 rm -f ./jest.config.js
 rm -rf -f ./src/server && rm -f ./package.json
-rm -rf -f ./node_modules && rm -f ./package-lock.lock
+rm -rf -f ./node_modules && rm -f ./package-lock.json
 rm -rf -f ./dist
 
 echo -e "${TASK} copy initial package.json"
