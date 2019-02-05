@@ -1,3 +1,3 @@
-import log from './log';
+import { logger } from './logger';
 
-log.debug('Hello, World!');
+logger.debug('Hello, World!');
