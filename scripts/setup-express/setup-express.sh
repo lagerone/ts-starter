@@ -12,8 +12,8 @@ echo -e "${TASK} copying server modules to ${SRC_PATH}"
 cp -r ${CWD}/server/ $SRC_PATH
 
 echo -e "${TASK} installing dependencies..."
-yarn --cwd $PROJECT_PATH add --dev @types/body-parser @types/compression @types/errorhandler @types/express
-yarn --cwd $PROJECT_PATH add body-parser compression errorhandler express
+npm install --save-dev @types/body-parser @types/compression @types/errorhandler @types/express --prefix $PROJECT_PATH
+npm install --save body-parser compression errorhandler express --prefix $PROJECT_PATH
 
 echo -e "${TASK} adding test script to package.json"
 node ${CWD}/package.js
